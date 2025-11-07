@@ -141,28 +141,26 @@ Examples:
 - Constants
 - Simple expressions
 - Fixed-size arrays
-
 Example:
 
 ```python
 a = 10
 b = 20
-c = a + b
+c = a + b 
+```
 
 
-
-# 🧩 Recursion and Loop vs Recursion (Detailed Notes)
+# Recursion and Loop vs Recursion (Detailed Notes)
 
 ## 🧩 1. What is Recursion?
 
 **Recursion** ek aisa problem-solving technique hai jisme **function apne aap ko hi call karta hai** — directly ya indirectly — jab tak problem solve na ho jaye.
 
-### 🔹 Simple Words Me:
+### 🔹 Simple Words Me
+
 > Recursion is when a big problem is broken into smaller sub-problems of the same type, and each sub-problem is solved using the same logic until we reach a **base condition (stopping point)**.
 
----
-
-### 🧠 Real-Life Understanding:
+### 🧠 Real-Life Understanding
 
 Socho tumharay paas **10 nested boxes** hain — ek box ke andar doosra box.  
 Tumhe **sabse chhoti box** tak pahunchna hai.
@@ -170,15 +168,13 @@ Tumhe **sabse chhoti box** tak pahunchna hai.
 - Tum **ek box kholo**, dekhte ho andar ek aur box hai → tum kehte ho “main is andar wale box ko kholne ja raha hoon.”  
 - Phir wohi process repeat hoti rehti hai — **same step har box ke liye**.  
 - Jab tum **sabse chhoti box** tak pahunch jaate ho (jisme aur koi box nahi), tum kaam rok dete ho (yeh hai **base case**).  
-- Ab tum wapas aate ho har box band karte hue (yeh hoti hai **unwinding of recursion**).  
+- Ab tum wapas aate ho har box band karte hue (yeh hoti hai **unwinding of recursion**).
 
 So basically:  
 > Har step same logic use karta hai (ek box kholna), jab tak condition poori na ho jaaye (box khatam).  
 > Yahi recursion ka **core idea** hai.
 
----
-
-### 🧩 Real-World Analogies:
+### 🧩 Real-World Analogies
 
 - **Russian Matryoshka Dolls** — ek ke andar doosri doll.  
 - **Family Tree Traversal** — har child ke child ko same rule se explore karna.  
@@ -198,10 +194,10 @@ Recursion computer ke **memory stack (call stack)** par kaam karti hai.
 
 ---
 
-## 🔁 3. Loop vs Recursion (Deep Comparison)
+## 3. Loop vs Recursion (Deep Comparison)
 
 | **Aspect** | **Loop (Iteration)** | **Recursion** |
-|-------------|----------------------|----------------|
+|------------|--------------------|---------------|
 | **Concept** | Repeats a block of code until a condition is false | Function calls itself until base case is reached |
 | **Control Flow** | Uses statements like `for`, `while`, `do-while` | Uses function calls and return statements |
 | **Termination Condition** | Loop condition becomes false | Base condition is met |
@@ -226,12 +222,14 @@ Imagine you are climbing stairs:
 
 ## 🧠 4. When to Use Recursion vs Loop
 
-### ✅ Use **Loop** When:
+### ✅ Use **Loop** When
+
 - Task simple aur repetitive hai (e.g., printing 1 to 100).  
 - Memory optimization important hai.  
 - Time complexity ko minimal rakhna ho.  
 
-### ✅ Use **Recursion** When:
+### ✅ Use **Recursion** When
+
 - Problem naturally **divides into subproblems**.  
 - Examples:
   - Tree traversal (left and right child)  
@@ -253,3 +251,4 @@ Imagine you are climbing stairs:
 
 > **Loop** ek repetitive process hai,  
 > **Recursion** ek self-calling process hai — jisme solution milta hai by breaking problem into smaller, similar problems.
+
