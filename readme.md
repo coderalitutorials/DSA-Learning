@@ -11,7 +11,9 @@ Yahan main har din ke notes aur code practice upload karta hoon taake apni learn
 |-----|--------|------------|
 | 1 | Basics of Data Structures | [01_basics.py](./Day-1/01_basics.py) |
 | 2 | Recursion (Theory Notes) | [day-2-notes.md](./Day-2/day-2-notes.md) |
-| 3 | Recursion (practice question with logic) | [day-2-recursion.py](./Day-2/day-2-recursion.py) |
+| 2 | Recursion (practice question with logic) | [day-2-recursion.py](./Day-2/day-2-recursion.py) |
+| 3 | List | [list.ipynb](./Day-3/list.ipynb) |
+| 3 | tuples,string | [tuples.ipynb](./Day-3/tuples.ipynb)
 
 ---
 
